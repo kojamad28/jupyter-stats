@@ -1,4 +1,3 @@
-# Basic Jupyter Python
+# Jupyter Stats
 
-This repository provides a basic python environment using Jupyterlab.
-This python environment includes linter and type checker libraries.
+This repository provides a basic environment for statistical analyses using Jupyterlab. This environment includes both python and R for data science.
