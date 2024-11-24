@@ -1,0 +1,10 @@
+name: stats
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - r-base
+  - r-essentials
+  - r-rlang
+  - r-tidyverse
+  - r-irkernel
