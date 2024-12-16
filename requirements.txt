@@ -3,6 +3,12 @@ ruff
 mypy
 tox
 jupyterlab
+pytest
+pytest-snapshot
+structlog
+pytest-structlog
+line_profiler
+memory_profiler
 numpy
 scipy
 statsmodels
