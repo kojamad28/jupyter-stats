@@ -3,7 +3,7 @@ services:
     build: 
       context: .
       args:
-        ENV_YML: "environment.yml"
+        ENV_YML: "environment.yaml"
         VENV: "stats"
         DIR_CONDA: "/opt/conda"
         REQ_TXT: "requirements.txt"
