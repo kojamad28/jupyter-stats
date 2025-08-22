@@ -1,6 +1,6 @@
 FROM condaforge/miniforge3:latest
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src
 
 RUN apt-get update && apt-get install -y build-essential gcc && \
     apt-get clean && \
