@@ -5,11 +5,10 @@ services:
       args:
         ENV_YML: "environment.yaml"
         VENV: "stats"
-        DIR_CONDA: "/opt/conda"
         REQ_TXT: "requirements.txt"
     image: kojamad28/jupyter-stats
     container_name: jupyterlab
-    command: jupyter lab --ip=0.0.0.0 --allow-root --LabApp.token=''
+    command: mamba run --name stats jupyter lab --ip=0.0.0.0 --allow-root --LabApp.token=''
     ports:
      - "8888:8888"
     volumes:
