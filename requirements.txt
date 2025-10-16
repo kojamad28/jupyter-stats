@@ -22,7 +22,6 @@ fastcluster
 statannotations
 requests
 scikit-learn
-jupyterlab
 ipywidgets
 ipympl
 streamlit
